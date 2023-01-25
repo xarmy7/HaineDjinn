@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Renderer">
+      <UniqueIdentifier>{dc72153e-8b36-4b8c-b289-c349002b9940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Core">
+      <UniqueIdentifier>{1ccf1c6e-64e9-4a07-91e6-2bf33f0a1907}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Physics">
+      <UniqueIdentifier>{1e385b2c-84e2-4b97-a6a9-0c91165d721c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Core">
+      <UniqueIdentifier>{ec430edc-3f1b-4251-9b86-27e440ff719c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Renderer">
+      <UniqueIdentifier>{22b7b409-e92d-4d0b-95c1-17bd8661ae76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Physics">
+      <UniqueIdentifier>{c62079d8-e70c-4ebc-8324-153e1bc2999c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\Shaders">
+      <UniqueIdentifier>{9f1d21da-bd84-4122-acfd-abddf541eee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\EditorWindow">
+      <UniqueIdentifier>{ec13b97e-bd98-4195-98ef-dbee1191790c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\EditorWindow">
+      <UniqueIdentifier>{9ade8af0-2931-4d0e-94d8-958bf9b3bc46}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\App.cpp">
+      <Filter>Fichiers sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Editor.cpp">
+      <Filter>Fichiers sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EditorWindow\AssetManagerWindow.cpp">
+      <Filter>Fichiers sources\EditorWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EditorWindow\CharacterManagerWindow.cpp">
+      <Filter>Fichiers sources\EditorWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EditorWindow\FileManagerWindow.cpp">
+      <Filter>Fichiers sources\EditorWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EditorWindow\ItemManagerWindow.cpp">
+      <Filter>Fichiers sources\EditorWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EditorWindow\MapManagerWindow.cpp">
+      <Filter>Fichiers sources\EditorWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EditorWindow\ObjectCompWindow.cpp">
+      <Filter>Fichiers sources\EditorWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EditorWindow\PlayWindow.cpp">
+      <Filter>Fichiers sources\EditorWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EditorWindow\SceneObjWindow.cpp">
+      <Filter>Fichiers sources\EditorWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EditorWindow\SceneWindow.cpp">
+      <Filter>Fichiers sources\EditorWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EditorWindow\EditorFunction.cpp">
+      <Filter>Fichiers sources\EditorWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Script.cpp">
+      <Filter>Fichiers sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CameraFollow.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Enemy.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PhysTestComp.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Core\App.h">
+      <Filter>Fichiers d%27en-tête\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Editor.h">
+      <Filter>Fichiers d%27en-tête\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EditorWindow\AssetManagerWindow.h">
+      <Filter>Fichiers d%27en-tête\EditorWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EditorWindow\CharacterManagerWindow.h">
+      <Filter>Fichiers d%27en-tête\EditorWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EditorWindow\FileManagerWindow.h">
+      <Filter>Fichiers d%27en-tête\EditorWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EditorWindow\ItemManagerWindow.h">
+      <Filter>Fichiers d%27en-tête\EditorWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EditorWindow\MapManagerWindow.h">
+      <Filter>Fichiers d%27en-tête\EditorWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EditorWindow\ObjectCompWindow.h">
+      <Filter>Fichiers d%27en-tête\EditorWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EditorWindow\PlayWindow.h">
+      <Filter>Fichiers d%27en-tête\EditorWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EditorWindow\SceneObjWindow.h">
+      <Filter>Fichiers d%27en-tête\EditorWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EditorWindow\SceneWindow.h">
+      <Filter>Fichiers d%27en-tête\EditorWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EditorWindow\ImGuiIncluder.h">
+      <Filter>Fichiers d%27en-tête\EditorWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EditorWindow\EditorFunction.h">
+      <Filter>Fichiers d%27en-tête\EditorWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Script.h">
+      <Filter>Fichiers d%27en-tête\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CameraFollow.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Enemy.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PhysTestComp.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Assets\Shaders\noLight.frag">
+      <Filter>Fichiers de ressources\Shaders</Filter>
+    </None>
+    <None Include="..\Assets\Shaders\noLight.vert">
+      <Filter>Fichiers de ressources\Shaders</Filter>
+    </None>
+    <None Include="..\Assets\Shaders\phong.frag">
+      <Filter>Fichiers de ressources\Shaders</Filter>
+    </None>
+    <None Include="..\Assets\Shaders\phong.vert">
+      <Filter>Fichiers de ressources\Shaders</Filter>
+    </None>
+    <None Include="..\Assets\Shaders\white.frag">
+      <Filter>Fichiers de ressources\Shaders</Filter>
+    </None>
+    <None Include="..\Assets\Shaders\white.vert">
+      <Filter>Fichiers de ressources\Shaders</Filter>
+    </None>
+    <None Include="..\Assets\Shaders\skybox.frag">
+      <Filter>Fichiers de ressources\Shaders</Filter>
+    </None>
+    <None Include="..\Assets\Shaders\skybox.vert">
+      <Filter>Fichiers de ressources\Shaders</Filter>
+    </None>
+    <None Include="..\Assets\Shaders\animation.vert">
+      <Filter>Fichiers de ressources\Shaders</Filter>
+    </None>
+    <None Include="..\Assets\Shaders\animation.frag">
+      <Filter>Fichiers de ressources\Shaders</Filter>
+    </None>
+    <None Include="..\Assets\Shaders\wireframePhys.vert">
+      <Filter>Fichiers de ressources\Shaders</Filter>
+    </None>
+    <None Include="..\Assets\Shaders\wireframePhys.frag">
+      <Filter>Fichiers de ressources\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Editor.rc">
+      <Filter>Fichiers de ressources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Assets\HaineDjinn.ico">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+[Assert] 13:42:23 | HD_ASSERT called from Debug.cpp(47)
+[Message] 13:42:40 | InputSystem.cpp(167) : Saving inputs in file Inputs/testLoad.inputs
+[Message] 13:42:40 | InputSystem.cpp(192) : Inputs Inputs/testLoad.inputs saved.
+[Message] 13:42:40 | InputSystem.cpp(112) : Loading inputs from file Inputs/freeCam.inputs
+[Message] 13:42:40 | InputSystem.cpp(161) : Inputs from Inputs/freeCam.inputs loaded.
+[Message] 13:42:34 | Shader.cpp(16) : Started parsing shader: Shaders/noLight
+[Message] 13:42:34 | Shader.cpp(85) : Finished parsing shader: Shaders/noLight
+[Message] 13:42:35 | Texture.cpp(88) : Texture Textures/testBW.png Constructor
+[Message] 13:42:35 | Texture.cpp(88) : Texture Models/source/1001_albedo.jpg Constructor
+[Message] 13:42:35 | Texture.cpp(88) : Texture Models/source/1001_normal.png Constructor
+[Message] 13:42:35 | Texture.cpp(88) : Texture HaineDjinn.png Constructor
+[Message] 13:42:35 | Texture.cpp(114) : Started parsing texture: HaineDjinn.png
+[Message] 13:42:35 | Texture.cpp(130) : Finished parsing texture: HaineDjinn.png
+[Warning] 14:00:07 | App.cpp(130) : Entering run function
+[Warning] 14:00:07 | App.cpp(163) : Exiting run function
+[Message] 13:42:23 | Debug.cpp(53) : Ending debug
